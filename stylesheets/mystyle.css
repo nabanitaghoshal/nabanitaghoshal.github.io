@@ -1,0 +1,67 @@
+html, body {background-color: #9A9A9A; color:#FFFFFF; text-shadow:2px 2px 4px rgba(0, 0, 0, 0.49);}
+.card{background-color:#4A148C; border-radius: 13px !important;}
+
+#loading {background-color:#9E9E9E;}
+#loading .text-holder{width:100%;position:absolute;color:#1A237E;top:82%;}
+#loading .text-holder h2{padding:0;margin:0;text-shadow:3px 3px 4px rgba(0, 0, 0, 0.4);}
+#loading .text-holder h6{font-size:16px;padding:0;margin:0;text-shadow:2px 2px 4px rgba(0, 0, 0, 0.29);}
+#loading #loading-center-absolute{left:47%;width:320px;}
+#loading .box-holder .load-box { width:30px;height:50px;}
+
+
+#home .menu{background:#4A148C;}
+#home .menu .logo-flat{height:250px;margin-top:-14px;background:#AD1457;}
+#home .menu .menu-wrap{background:#4A148C;}
+#home .menu a{color:#fff;}
+#home .menu a:hover{color:#AD1457;}
+#home .menu a:active{color:#AD1457;}
+
+#v-card-holder #v-card .info-headings h4{color:#F8BBD0;}
+#v-card-holder #v-card .info-headings h6{color:#F8BBD0;}
+
+#home #menuToggle .toggle-normal i{color:#9A9A9A;}
+#home #menuToggle {border:2px solid #4A148C; border-radius: 5px; background: #AD1457;}
+
+#v-card-holder #v-card{background:#AD1457; border-radius: 13px !important; width: 90%; margin: 0 auto 0 auto; color: #4A148C;}
+#v-card-holder #v-card .card-content { height: inherit;  }
+#v-card-holder #v-card #profile .slant { border-color: rgba(223, 50, 50, 0) transparent transparent #AD1457; }
+
+
+#about .about-btn .btn{background:#7E57C2;color:#fff;}
+#about .about-btn .btn:hover{background:#944622;}
+
+#timeline-education:before{background:#1A237E; opacity: 0.7;}
+#timeline-experience:before{background:#1A237E; opacity: 0.7;}
+.timeline-block .timeline-dot{background:#1A237E; color: #fff;}
+.timeline-block .timeline-dot .medium{color:#fff; line-height: 50px;}
+.timeline-block .timeline-content{background:#AD1457; border-left: 4px solid #ADDF40;}
+.timeline-block .timeline-content::before{opacity:0.7;background:#1A237E;}
+.section-title .text-uppercase {color: #1A237E;}
+
+#skills .card{background-color: #4A148C;}
+#skills .card .skillbar{background:#F7F0DD;height:8px;}
+#skills .card .skillbar .skillbar-bar{height:8px;width:0;background:#9575CD;}
+
+#portfolios #portfolios-card .tab-content .grid figure figcaption{color:#F7F0DD; text-shadow: none;}
+#interest .card .box .interest-icon{background:#AD1457;}
+#interest .card .box .interest-icon-even{background:#4A148C; }
+
+#contact .card .card-content .btn{background:#4B0802;}
+#contact .card .card-content .btn:hover{background:#944622;}
+
+#contact label { color: cornsilk; }
+
+#contact input:not([type]):focus:not([readonly]) + label, 
+#contact input[type=text]:focus:not([readonly]) + label, 
+#contact input[type=password]:focus:not([readonly]) + label, 
+#contact input[type=email]:focus:not([readonly]) + label, 
+#contact input[type=url]:focus:not([readonly]) + label, 
+#contact input[type=time]:focus:not([readonly]) + label, 
+#contact input[type=date]:focus:not([readonly]) + label, 
+#contact input[type=datetime-local]:focus:not([readonly]) + label, 
+#contact input[type=tel]:focus:not([readonly]) + label, 
+#contact input[type=number]:focus:not([readonly]) + label, 
+#contact input[type=search]:focus:not([readonly]) + label, 
+#contact textarea.materialize-textarea:focus:not([readonly]) + label{color:#4B0802;}
+#contact input:not([type]):focus:not([readonly]), #contact input[type=text]:focus:not([readonly]), #contact input[type=password]:focus:not([readonly]), #contact input[type=email]:focus:not([readonly]), #contact input[type=url]:focus:not([readonly]), #contact input[type=time]:focus:not([readonly]), #contact input[type=date]:focus:not([readonly]), #contact input[type=datetime-local]:focus:not([readonly]), #contact input[type=tel]:focus:not([readonly]), #contact input[type=number]:focus:not([readonly]), #contact input[type=search]:focus:not([readonly]), #contact textarea.materialize-textarea:focus:not([readonly]){border-bottom:1px solid #4B0802;box-shadow:0 1px 0 0 #4B0802;}
+#contact input:not([type="submit"]), textarea { color: #4B0802; }
